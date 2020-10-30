@@ -814,7 +814,8 @@ a{
 
 .footer__link_box{
   display: flex;
-  align-items: center;  
+  align-items: center;
+  transition: .3s linear;  
 }
 
 .footer__top_link1{  
@@ -845,9 +846,120 @@ a{
   font-weight: bold;
 }
 
+.footer__link_box:hover{
+  transform: scale(1.1) rotateX(1deg);
+}
+
 .footer__logo{
   text-align: center;
-  margin: 135px 0 56px;  
+  margin: 135px 0 56px;
+  transition: .3s linear;  
+}
+
+.footer__logo:hover{
+  transform: scale(1.1) rotateX(1deg);
+}
+
+.footer__bottom-wrap{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 24px;
+}
+
+.footer__bottom-box{}
+
+.footer__bottom_title{
+  font-family: "Roboto";  
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 52px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.footer__bottom-box ul{
+  padding: 0;  
+}
+
+.footer__bottom-box ul li{
+  list-style: none;
+  transition: .3s linear;
+}
+
+.footer__bottom-box ul li a {
+  font-family: "Roboto";  
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.footer__bottom-box ul li:hover {
+  transform: scale(1.1) rotateX(1deg);
+}
+
+.copyright__wrap{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #ffffff;
+  height: 50px;
+  margin-bottom: 5px;
+}
+
+.copyright__link{
+  margin-right: 44px;
+}
+.copyright__link:last-child{
+  margin-right: 0;
+}
+
+.icon{
+  width: 35px;
+  height: 30px;
+  fill: #272D4E;  
+  transition: .3s linear;
+  margin-top: 5px;  
+}
+
+.icon:hover {
+  transform: scale(1.3) rotateX(1deg);
+  fill: #ffffff;
+  background-color:#9a7dff;
+  padding: 3px;
+  border-radius: 20%;
+}
+
+.copyright__info_text{
+  font-family: "Roboto";  
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;  
+  color: #272D4E;
+  text-transform: uppercase;
+}
+
+.copyright__info_link{
+  font-family: "Roboto";  
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;  
+  color: #272D4E;
+  text-transform: uppercase;
+  border-bottom: #272D4E 1px solid;
+  transition: .3s linear;
+}
+
+.copyright__info_link:hover{
+  background-color: #5F37EF;  
+  color: #ffffff;
+}
+
+.copyright__logo{
+  transition: .3s linear;
+}
+.copyright__logo:hover{
+  transform: scale(1.1) rotateX(1deg);
 }
 
 @media (max-width: 1920px) {  
