@@ -73,7 +73,7 @@ a{
   line-height: 21px;
   color: #272D4E;
   margin-right: 38px;
-  transition: .2s linear;  
+  transition: .3s linear;  
 }
 
 .nav__link:last-child {
@@ -194,14 +194,12 @@ a{
 .intro-wrapper{
   display: flex;
   align-items: center;
-  justify-content: space-between;
-    
+  justify-content: space-between;    
 }
 
 .intro__block{
   position: relative;
-  left: 220px;
-  
+  left: 220px;  
 }
 
 .intro__title{
@@ -212,7 +210,6 @@ a{
   color: #272D4E;
   margin-bottom: 29px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
 }
 
 .intro__text{
@@ -271,13 +268,9 @@ a{
   margin: 179px 0 0 0;
 }
 
-/* .start{} */
-
 .start-bg{
   background: #EDF0FD;
 }
-
-/* .start__title{} */
 
 .start__title-text{
   font-family: "Poppins";  
@@ -427,9 +420,7 @@ a{
 .start__column3{  
   margin-top: 130px;  
   margin-bottom: 124px;
-  flex: 0 1 33.333%;
-  
-  
+  flex: 0 1 33.333%;  
 }
 
 .column3-img{
@@ -459,8 +450,6 @@ a{
   top: -555px;
   left: 273px;
 }
-
-/* .proposal{} */
 
 .proposal-bg{
   background: #EDF0FD no-repeat center url("Img/proposal-bg/section.png");
@@ -866,8 +855,6 @@ a{
   margin-top: 24px;
 }
 
-.footer__bottom-box{}
-
 .footer__bottom_title{
   font-family: "Roboto";  
   font-weight: bold;
@@ -953,6 +940,7 @@ a{
 .copyright__info_link:hover{
   background-color: #5F37EF;  
   color: #ffffff;
+  padding: 3px;
 }
 
 .copyright__logo{
