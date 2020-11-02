@@ -1,6 +1,3 @@
-html,body{
-  height: 100%;
-}
 body{
   margin: 0;
   font-size: 15px;
@@ -44,7 +41,7 @@ a{
   top: 0;
   left: 0;
   z-index: 50;
-  height: 80px;
+  height: 80px;  
 }
 
 .header::before{
@@ -757,7 +754,7 @@ a{
 
 .support-img1{  
   margin-top: 15px;
-  
+  max-width: 100%;
 }
 
 .support__banner{
@@ -985,7 +982,7 @@ a{
   transform: scale(1.1) rotateX(1deg);
 }
 
-@media (max-width: 1920px) {
+@media (max-width: 1919px) {
   .nav{
     margin-right: 200px;
   }
@@ -1165,10 +1162,7 @@ a{
   }
 }
 
-@media (max-width: 768px) {
-  .container{
-    max-width: 768px;
-  }
+@media (max-width: 768px) {  
   .header{
     height: 50px;
   }
@@ -1237,7 +1231,7 @@ a{
     flex-direction: column;
     align-items: flex-start;
     padding-top: 25px;
-    margin-top: 50px;
+    margin-top: 50px;    
     top: 0px;    
   }
   .nav{    
@@ -1368,6 +1362,18 @@ a{
   }
 }
 
+@media (max-width: 828px){
+  .proposal__img2-origin{
+    max-width: 100%;
+  }
+  .proposal__img2-bg{
+    max-width: 100%;
+  }
+  .support-img1{
+    max-width: 100%;
+  }
+}
+
 @media (max-width: 425px){  
   .intro {
     height: 600px;
@@ -1477,10 +1483,11 @@ a{
     width: 150px;
   }
   .people__section{
-    min-width: 320px;
+    min-width: 100%;
+    text-align: center;
   }
   .support-img1 {
-  max-width: 320px;
+  max-width: 100%;
   }
   .testimonials__title{
     font-size: 36px;
@@ -1512,8 +1519,12 @@ a{
     line-height: 26px;
     margin-top: 21px;
   }
+  .support-bg {
+    height: 583px;
+  }
   .support__banner{
     text-align: center;
+    top: -193px;
   }
   .support__banner-title{
     font-size: 26px;
