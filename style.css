@@ -1,3 +1,39 @@
+@font-face{
+  font-family: "Roboto";
+  src: url("Fonts/Roboto/Roboto-Bold.woff2"), url("Fonts/Roboto/Roboto-Bold.woff");
+  font-weight: bold;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face{
+  font-family: "Roboto";
+  src: url("Fonts/Roboto/Roboto-Regular.woff2"), url("Fonts/Roboto/Roboto-Regular.woff");
+  font-weight: normal;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face{
+  font-family: "Poppins";
+  src: url("Fonts/Poppins/Poppins-Bold.woff2"), url("Fonts/Poppins/Poppins-Bold.woff");
+  font-weight: bold;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face{
+  font-family: "Poppins";
+  src: url("Fonts/Poppins/Poppins-Medium.woff2"), url("Fonts/Poppins/Poppins-Medium.woff");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face{
+  font-family: "Poppins";
+  src: url("Fonts/Poppins/Poppins-Regular.woff2"), url("Fonts/Poppins/Poppins-Regular.woff");
+  font-weight: normal;
+  font-display: swap;
+  font-style: normal;
+}
+
 body{
   margin: 0;
   font-size: 15px;
